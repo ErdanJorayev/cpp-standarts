@@ -1,4 +1,4 @@
-// В этом файле мы изучим работу auto и decltype
+// В этом файле мы изучим работу auto и decltype в C++11
 
 #include <iostream>
 #include <vector>
