@@ -31,7 +31,8 @@ int main()
 {
     // --- Демонстрация [[fallthrough]] ---
     int option = 1;
-    switch (option) {
+    switch (option) 
+    {
         case 1:
             std::cout << "Option 1 initialized.\n";
             [[fallthrough]]; // Явно говорим компилятору: «проваливаемся» в case 2

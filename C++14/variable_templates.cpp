@@ -29,7 +29,7 @@ int main()
     // Задействуем нашу шаблонную переменную is_integral_v
     bool check_int = is_integral_v<int>; // true
 
-    // Обрати внимание: встроенные _v (например, std::is_same_v)
+    // встроенные _v (например, std::is_same_v)
     // появились в стандарте C++17, поэтому для C++14 создаем свой алиас:
     bool is_same_type = std::is_same<int, double>::value; // false
 
